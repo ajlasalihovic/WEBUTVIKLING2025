@@ -174,35 +174,17 @@
 
       <!-- Kort forklaring til skjemaet. -->
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-
-      <!-- <form> kapsler inn skjemafelt.
-           Uten action/metode brukes standard GET til samme URL (ingen innsending her). -->
       <form>
-        <!-- <label> knytter tekstlig forklaring til et input-felt.
-             Her er input feltet plassert inni <label>, som implisitt kobler dem. -->
         <label>
-          <!-- Beskrivende etikettekst for e-postfeltet. -->
           E-post:
-          <!-- <input> med type="email" validerer e-postformat i nettlesere som støtter det.
-               placeholder gir eksempeltekst.
-               Tips: legg til name="email" for innsending og id/for for eksplisitt kobling. -->
           <input type="email" placeholder="ola.nordman@hiof.no....">
         </label>
 
-        <!-- Innsendingsknapp for skjemaet.
-             type="submit" sender skjemaet når klikket.
-             value angir knappens etikett. -->
         <input type="submit" value="Mel meg på">
-
-        <!-- Etikett knyttet til avkrysningsboks via for="age-validation" og id="age-validation".
-             Dette gjør at klikk på teksten toggler boksen. -->
         <label for="age-validation">Over 18</label>
-
-        <!-- Avkrysningsboks (checkbox) for aldersbekreftelse.
-             id matcher label-for.
-             required gjør feltet obligatorisk før innsending. -->
         <input type="checkbox" id="age-validation" required>
       </form>
     </aside>
+
   </body>
 </html>
